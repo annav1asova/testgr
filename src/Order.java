@@ -29,7 +29,7 @@ public class Order {
         }
         String alphabet = getAlphabet(precede);
         if (alphabet == null) {
-            System.out.println("such alphabet doesn't exist");
+            System.out.println("Impossible");
         } else {
             System.out.println(alphabet);
         }

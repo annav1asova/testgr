@@ -93,9 +93,9 @@ public class Trie {
             String name = in.next();
             int res = trie.add(name);
             if (res > 1)
-                System.out.println("you are registered as " + name + (res - 1));
+                System.out.println(name + (res - 1));
             else
-                System.out.println("OK, your nick " + name);
+                System.out.println("OK");
         }
     }
 
